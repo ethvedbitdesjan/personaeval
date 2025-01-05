@@ -87,7 +87,7 @@ class PromptOptimizer:
   - 70% samples improved (7/10)
 
 #### Manual Optimization
-Fine-tuning the optimized prompt by hand gave an additional 0.01-0.02 improvement in evaluation scores.
+Fine-tuning the optimized prompt by hand gave an additional 0.01-0.02 improvement in evaluation scores in one of the runs.
 
 ### 3.2 Key Improvements
 1. **Linguistic Authenticity**
