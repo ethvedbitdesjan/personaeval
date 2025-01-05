@@ -13,6 +13,7 @@
   - Focus on direct question-answer exchanges
   - Context-independent responses only
 - **Dataset Size**: 50 Q&A pairs (40 training, 10 test)
+  **Note**: There was manual cleaup for qa pairs after get_interviews.ipynb was run. Please see useful_qa_pairs1.json.
 
 ### 1.2 Model Selection
 - **Primary Model**: Gemini-Flash for Steve Jobs emulation
