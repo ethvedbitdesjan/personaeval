@@ -1,4 +1,4 @@
-I'll help improve the documentation's clarity and structure while maintaining the same content. Here's a refined version:
+
 
 
 
@@ -13,6 +13,7 @@ I'll help improve the documentation's clarity and structure while maintaining th
   - Focus on direct question-answer exchanges
   - Context-independent responses only
 - **Dataset Size**: 50 Q&A pairs (40 training, 10 test)
+  **Note**: There was manual cleaup for qa pairs after get_interviews.ipynb was run. Please see useful_qa_pairs1.json.
 
 ### 1.2 Model Selection
 - **Primary Model**: Gemini-Flash for Steve Jobs emulation
@@ -87,7 +88,7 @@ class PromptOptimizer:
   - 70% samples improved (7/10)
 
 #### Manual Optimization
-Fine-tuning the optimized prompt by hand gave an additional 0.01-0.02 improvement in evaluation scores.
+Fine-tuning the optimized prompt by hand gave an additional 0.01-0.02 improvement in evaluation scores in one of the runs.
 
 ### 3.2 Key Improvements
 1. **Linguistic Authenticity**
